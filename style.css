@@ -1,0 +1,70 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e1b4b);
+    color: #e2e8f0;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: #1e293b;
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
+}
+
+h1 { margin: 0 0 4px; font-size: 1.6rem; }
+.sub { margin: 0 0 20px; color: #94a3b8; }
+
+label { display: block; margin: 14px 0 6px; font-size: .9rem; }
+
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    background: #0f172a;
+    color: #e2e8f0;
+    font-size: 1rem;
+}
+input:focus { outline: 2px solid #6366f1; border-color: transparent; }
+
+.check { display: flex; align-items: center; gap: 8px; color: #94a3b8; }
+
+button, .btn-out {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 11px;
+    border: 0;
+    border-radius: 8px;
+    background: #6366f1;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+button:hover, .btn-out:hover { background: #4f46e5; }
+.btn-out { background: #ef4444; }
+.btn-out:hover { background: #dc2626; }
+
+.alert { padding: 10px 14px; border-radius: 8px; margin-bottom: 8px; font-size: .9rem; }
+.alert ul { margin: 0; padding-left: 18px; }
+.alert.error   { background: rgba(239, 68, 68, .15); border: 1px solid #ef4444; color: #fca5a5; }
+.alert.success { background: rgba(34, 197, 94, .15); border: 1px solid #22c55e; color: #86efac; }
+
+.foot { text-align: center; margin: 20px 0 0; color: #94a3b8; font-size: .9rem; }
+a { color: #818cf8; }
+
+.info { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.info th, .info td { text-align: left; padding: 10px 0; border-bottom: 1px solid #334155; }
+.info th { color: #94a3b8; width: 35%; font-weight: 500; }

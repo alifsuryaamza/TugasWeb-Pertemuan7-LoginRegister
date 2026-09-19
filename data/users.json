@@ -1,0 +1,23 @@
+[
+    {
+        "id": "u_sample_001",
+        "name": "Budi Santoso",
+        "email": "budi@example.com",
+        "password": "$2y$10$NYY9NCD5OKPWb4xUPV\/OK.OaupDEDyp7I5VF0nohkqiocJt081O\/G",
+        "created_at": "2026-09-19 10:00:00"
+    },
+    {
+        "id": "u_sample_002",
+        "name": "Siti Aminah",
+        "email": "siti@example.com",
+        "password": "$2y$10$YK855cT\/6b3IKCOLz\/tfdO6VbRzZjMGXxibXlC\/wUoLBs2x80ShQS",
+        "created_at": "2026-09-19 10:05:00"
+    },
+    {
+        "id": "u_6aae971640c8f9.90588729",
+        "name": "ucok",
+        "email": "ucokgaming123@gmail.com",
+        "password": "$2y$10$RvneeGrcXq6L5nyNywB0t.owdSad\/XfsZoqB3u8pGi4y.i7d752z2",
+        "created_at": "2026-09-19 16:07:18"
+    }
+]
